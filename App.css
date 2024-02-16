@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a5f5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+button {
+  background-color: #61dafb;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c739a;
+}
+
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App header {
+  background-color: #282c34;
+  padding: 20px;
+  color: rgb(147, 173, 98);
+  animation: fadeIn 1s ease-out;
+}
+
+form div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-right: 10px; 
+}
+
+#viewtable
+{
+  position: relative;
+  left: 30px;
+}
+#sub
+{
+  position: relative;
+  left: 120px;
+  width: 200px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px; 
+}
